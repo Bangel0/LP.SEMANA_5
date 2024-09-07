@@ -1,150 +1,115 @@
 package com.example;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Main {
+
     public static void main(String[] args) {
-//        //array
+        
 //         Scanner input = new Scanner(System.in);
-//     //    int[] array = new int[5];   //forma 1
+        
 
-//     int [] array = {1, 2, 3, 4, 5};
-//     int [] array2 = {1, 6, 3, 4, 5};
+//         int[] number = {1, 2, 3, 4, 5};
+//         int[] number2 = {1, 6, 3, 4, 5};
 
-    
-   
-       
-//     int x =array[0];
-//     array[0] = array[4];             //Intercambio de elementos: Crea un array de enteros con 5 elementos. Intercambia el primer elemento con el último elemento del array.
-//     array[4] = x;
-                     
+//         int x = number[0];
+//         number[0] = number[4];             
+//         number[4] = x;
 
-//     boolean z =Arrays.equals(array, array2);            // Verificar igualdad: Crea dos arrays de enteros con 5 elementos cada uno. Comprueba si los dos arrays son iguales.
+//         boolean z = Arrays.equals(number, number2);            
 
-    
-    
-//     Arrays.sort(array);
-//     int n =array[array.length-1];                             // Encontrar el elemento máximo: Crea un array de enteros con 5 elementos. Encuentra el elemento máximo del array.
+//         Arrays.sort(number);
+//         int n = number[number.length - 1];                            
+//         System.out.println("Elemento máximo " + number[number.length - 1]);
 
-    
-//     int m = array[0];                                          // Encontrar el elemento mínimo: Crea un array de enteros con 5 elementos. Encuentra el elemento mínimo del array.
-                             
+//         int m = number[0];                                          
+//         int q = number[0];
+//         int w = number[1];                               
+//         int e = number[2];
+//         int r = number[3];
+//         int t = number[4];
+//         int sum = q + w + e + r + t;
 
-                                                                   
+//         int sum2 = sum / number.length;                     
 
-                                                                  
+//         int contador1 = 0;
 
-   
-      
-// int    q = array[0];
-// int    w = array[1];                                // Suma de elementos: Crea un array de enteros con 5 elementos. Calcula la suma de todos los elementos del array.
-// int    e = array[2];              
-// int    r = array[3];              
-// int    t = array[4];              
-// int    sum = q+w+e+r+t;            
+//         if (q % 2 == 0) {
+//             contador1 += 1;
+//         }
+//         if (w % 2 == 0) {
+//             contador1++;
+//         }          
+//         if (e % 2 == 0) {
+//             contador1++;
+//         }
+//         if (r % 2 == 0) {
+//             contador1++;
+//         }
+//         if (t % 2 == 0) {
+//             contador1++;
+//         }
+
+//         int contador2 = 0;
+//         if (q % 2 != 0) {
+//             contador2++;
+//         }
+//         if (w % 2 != 0) {
+//             contador2++;
+//         }                     
+//         if (e % 2 != 0) {
+//             contador2++;
+//         }
+//         if (r % 2 != 0) {
+//             contador2++;
+//         }
+//         if (t % 2 != 0) {
+//             contador2++;
+//         }
+
+//         System.out.println("ingrese elemnto a buscar en el array -->");
+//         int l = input.nextInt();
+//         Arrays.binarySearch(number, l);     
+
+//         int[] arrayInvertido = new int[5];    
+//         arrayInvertido[0] = number[4];
+//         arrayInvertido[1] = number[3];                    
+//         arrayInvertido[2] = number[2];
+//         arrayInvertido[3] = number[1];
+//         arrayInvertido[4] = number[0];
+
+//         System.out.println(Arrays.toString(arrayInvertido));
+//     }
+// }
 
 
 
-//     int sum2 = sum / array.length;                     // Promedio de elementos: Crea un array de enteros con 5 elementos. Calcula el promedio de todos los elementos del array.
-
-//     int cont1= 0 ;
-    
-    
-            
-    
-// if (q%2==0) {cont1+=1;}
-// if (w%2==0) {cont1++;}           // Contar elementos pares: Crea un array de enteros con 5 elementos. Cuenta la cantidad de elementos pares del array.
-// if (e%2==0) {cont1++;}
-// if (r%2==0) {cont1++;}
-// if (t%2==0) {cont1++;
-//     }                                                           
-
-
-//     int cont2 = 0;
-//     if (q%2!=0) {cont2++;}  
-//     if (w%2!=0) {cont2++;}                      // Contar elementos impares: Crea un array de enteros con 5 elementos. Cuenta la cantidad de elementos impares del array.
-//     if (e%2!=0) {cont2++;}              
-//     if (r%2!=0) {cont2++;}
-//     if (t%2!=0) {cont2++;}                    
-
-     
-//     System.out.println("ingrese elemnto a buscar en el array -->");
-//     int l =input.nextInt();
-//     Arrays.binarySearch(array, l);     // Verificar si un elemento existe: Crea un array de enteros con 5 elementos. Verifica si un elemento específico existe en el array.
-
-       
-    
-//     int[] arrayInvertido = new int[5];    // Invertir un array: Crea un array de enteros con 5 elementos. Invierte el orden de los elementos del array.
-//        arrayInvertido[0] = array[4];
-//        arrayInvertido[1] = array[3];                    //Se invirtío el array "array"
-//        arrayInvertido[2] = array[2];
-//        arrayInvertido[3] = array[1];
-//        arrayInvertido[4] = array[0];
-
-//     System.out.println(Arrays.toString(arrayInvertido));
-// }}
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-        //arraylist
+        //arraylist...!
         Scanner input = new Scanner(System.in);
-
         ArrayList<String> list = new ArrayList<String>();
-
-            list.add("first");                         //Agregar un elemento al principio: Crea un ArrayList de String. Agrega un nuevo elemento al principio del ArrayList.
-            list.add("hello");                         // Agregar un elemento al final: Crea un ArrayList de String. Agrega un nuevo elemento al final del ArrayList.
-
-
-        list.add("nabo");// Valores x, para eviytar errores de un ARL vacio                    
-        list.add("nabo");// Valores x, para eviytar errores de un ARL vacio
-        list.add("nabo");// Valores x, para eviytar errores de un ARL vacio    
-
-
-
+            list.add("Primero");                        
+            list.add("Hola");                        
+        list.add("Libro");                    
+        list.add("Libro");                    
+        list.add("Libro");                    
+        list.add("Libro");
+        list.add("Libro");    
         int h = list.size();
-        list.remove(h-1);                              // Eliminar el último elemento: Crea un ArrayList de String. Elimina el último elemento del ArrayList.
-
-        list.remove(0);                      // Eliminar el primer elemento: Crea un ArrayList de String. Elimina el primer elemento del ArrayList.
-
+        list.remove(h-1);                              
+        list.remove(0);                      
         int x = list.size();
-        list.get(x-1);                            // Obtener el último elemento: Crea un ArrayList de String. Obtiene el último elemento del ArrayList.
-
-        list.get(0);                         // Obtener el primer elemento: Crea un ArrayList de String. Obtiene el primer elemento del ArrayList.
-
-        boolean r = list.isEmpty();                        // Verificar si el ArrayList está vacío: Crea un ArrayList de String. Comprueba si el ArrayList está vacío.
-
-        int a =list.size();                // Obtener el tamaño del ArrayList: Crea un ArrayList de String. Obtiene el tamaño del ArrayList.
-
-        System.out.println("ingrese el valor a verificar-->");
-        String c= input.nextLine();                  // Verificar si un elemento existe: Crea un ArrayList de String. Verifica si un elemento específico existe en el ArrayList.
+        list.get(x-1);                            
+        list.get(0);                         
+        boolean r = list.isEmpty();                        
+        int a =list.size();                
+        System.out.println("ingrese el valor a verificar");
+        String c= input.nextLine();                  
         boolean m = list.contains(c);                                             
-
-        System.out.println("Ingrese el valor del que quiere obtener el indice -->");
+        System.out.println("Ingrese el valor del que quiere obtener el indice");
         String v = input.nextLine();
-
-        list.indexOf(v);                    // Obtener el índice de un elemento: Crea un ArrayList de String. Obtiene el índice de un elemento específico del ArrayList.
-        
+        list.indexOf(v);                   
         input.close();
-        
-
     }
 }
